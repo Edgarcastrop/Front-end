@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content= "IE = borde">
+    <meta name="viewport" content="width=devise-width, inicial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <form action="Pedidos.js">
+        <h1>Pedidos</h1>
+        <label for="Correo">Ingresa tu Correo</label><br>
+        <input type="email" id="Correo" name="Correo" placeholder="Tu Correo">
+        <br><br>
+
+        <label for="Nombre">Ingresa tu nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Tu nombre"><br><br>
+
+        <!--Seleccion de la zona -->
+        <label for="Zonas">Selecciona la zona para recoger tu pastel </label><br>
+        <select name="Zonas" id="Zonas">
+            <option value="Sur">Zona Sur</option>
+            <option value="Centro">Zona Centro</option>
+            <option value="Oeste">Zona Oeste</option>
+            <option value="Este">Zona Este</option>
+        </select><br><br>
+        
+        <!--Numero de telefono-->
+        <label for="Numero">Ingresa tu numero de telefono</label> <br>
+        <input type="tel" id="Numero" name="Numero" maxlength="10" placeholder="Tu numero celular"><br><br>
+
+        <!---Fecha-->
+        <label for="Fecha de entrega">Fecha la cual desea el pastel</label> <br> 
+        <input type="date" name="Fecha de entrega" id="Fecha de entrega">
+
+        <!--Pastel  de chocolate-->
+        <h2>¿Que deseas ordenar?</h2>
+        <input type="checkbox" name="Pasteles" id="Pastel de chocolate">
+        <label for="Pastel de chocolate">Pastel de chocolate</label>
+        
+        <!--Cantidad de pasteles-->
+        <label for="Cuantos">¿Cuantos desea ordenar?</label>
+        <input type="number" id="Cuantos" name="Cuantos" maxlength="1">
+            <!--Rellenos-->
+            <h4>Relleno</h4>
+            <!--Cajeta-->
+            <input type="radio" name="Relleno" id="Cajeta">
+            <label for="Cajeta">Cajeta</label><br>
+        
+        
+            <!--Mermelada de fresa-->
+            <input type="radio" value="Mermelada de fresa" name="Relleno" id="Mermelada de fresa">
+            <label for="Mermelada de fresa">Mermelada de fresa</label><br>
+            
+            <!--Chocolate-->
+            <input type="radio" value="Chocolate" name="Relleno" id="Chocolate">
+            <label for="Chocolate">Chocolate</label><br><br>
+
+            <h4>Complementos (Con costo extra)</h4>
+            <!--Almendras-->
+            <input type="checkbox" name="Almendras" id="Almendras">
+            <label for="Almendras">Almendras</label><br>
+    
+    
+            <!--Nuez-->
+            <input type="checkbox" name="Nuez" id="Nuez">     
+            <label for="Nuez">Nuez</label><br>
+    
+    
+            <!--Trosos de brownie-->
+            <input type="checkbox" name="Trosos de brownie" id="Trosos de brownie">
+            <label for="Trosos de brownie">Trosos de brownie</label><br><br><br>
+
+        <!--Pastel de vainilla-->
+        <input type="checkbox" name="Pasteles" id="Pastel de vainilla"> 
+        <label for="Pastel de vainilla">Pastel de vainilla</label>
+        
+        <!--Cantidad de pasteles-->
+        <label for="Cuantos">¿Cuantos desea ordenar?</label>
+        <input type="number" id="Cuantos" name="Cuantos" maxlength="1"><br>
+            <!--Rellenos-->
+            <h4>Relleno</h4>
+            <!--Cajeta-->
+            <input type="radio" name="Relleno" id="Cajeta">
+            <label for="Cajeta">Cajeta</label><br>
+
+
+            <!--Mermelada de fresa-->
+            <input type="radio" value="Mermelada de fresa" name="Relleno" id="Mermelada de fresa">
+            <label for="Mermelada de fresa">Mermelada de fresa</label><br>
+            
+            <!--Chocolate-->
+            <input type="radio" value="Chocolate" name="Relleno" id="Chocolate">
+            <label for="Chocolate">Chocolate</label><br><br>
+
+            <h4>Complementos (Con costo extra)</h4>
+            <!--Almendras-->
+            <input type="checkbox" name="Almendras" id="Almendras">
+            <label for="Almendras">Almendras</label><br>
+    
+    
+            <!--Nuez-->
+            <input type="checkbox" name="Nuez" id="Nuez">     
+            <label for="Nuez">Nuez</label><br>
+    
+    
+            <!--Trosos de brownie-->
+            <input type="checkbox" name="Trosos de brownie" id="Trosos de brownie">
+            <label for="Trosos de brownie">Trosos de brownie</label><br><br><br>
+
+
+        <!--Pastel de 2 pisos de chocolate-->
+        <input type="checkbox" name="Pasteles" id="Pastel de 2 pisos de chocolate"> 
+        <label for="Pastel de 2 pisos de chocolate">Pastel de 2 pisos de chocolate</label>
+        
+            <!--Cantidad de pasteles-->
+            <label for="Cuantos">¿Cuantos desea ordenar?</label>
+            <input type="number" id="Cuantos" name="Cuantos" maxlength="1"><br>
+            <!--Rellenos-->
+            <h4>Relleno</h4>
+            <!--Cajeta-->
+            <input type="radio" name="Relleno" id="Cajeta">
+            <label for="Cajeta">Cajeta</label><br>
+
+
+            <!--Mermelada de fresa-->
+            <input type="radio" value="Mermelada de fresa" name="Relleno" id="Mermelada de fresa">
+            <label for="Mermelada de fresa">Mermelada de fresa</label><br>
+            
+            <!--Chocolate-->
+            <input type="radio" value="Chocolate" name="Relleno" id="Chocolate">
+            <label for="Chocolate">Chocolate</label><br><br>
+
+            <h4>Complementos (Con costo extra)</h4>
+            <!--Almendras-->
+            <input type="checkbox" name="Almendras" id="Almendras">
+            <label for="Almendras">Almendras</label><br>
+    
+    
+            <!--Nuez-->
+            <input type="checkbox" name="Nuez" id="Nuez">     
+            <label for="Nuez">Nuez</label><br>
+    
+    
+            <!--Trosos de brownie-->
+            <input type="checkbox" name="Trosos de brownie" id="Trosos de brownie">
+            <label for="Trosos de brownie">Trosos de brownie</label><br><br><br>
+
+
+        <!--Pastel de 2 pisos de vainilla-->
+        <input type="checkbox" name="Pasteles" id="Pastel de 2 pisos de vainilla"> 
+        <label for="Pastel de 2 pisos de vainilla">Pastel de 2 pisos de vainilla</label>
+        
+            <!--Cantidad de pasteles-->
+            <label for="Cuantos">¿Cuantos desea ordenar?</label>
+            <input type="number" id="Cuantos" name="Cuantos" maxlength="1"><br>
+            <!--Rellenos-->
+            <h4>Relleno</h4>
+            <!--Cajeta-->
+            <input type="radio" name="Relleno" id="Cajeta">
+            <label for="Cajeta">Cajeta</label><br>
+
+
+            <!--Mermelada de fresa-->
+            <input type="radio" value="Mermelada de fresa" name="Relleno" id="Mermelada de fresa">
+            <label for="Mermelada de fresa">Mermelada de fresa</label><br>
+            
+            <!--Chocolate-->
+            <input type="radio" value="Chocolate" name="Relleno" id="Chocolate">
+            <label for="Chocolate">Chocolate</label><br><br>
+
+            <h4>Complementos (Con costo extra)</h4>
+            <!--Almendras-->
+            <input type="checkbox" name="Almendras" id="Almendras">
+            <label for="Almendras">Almendras</label><br>
+    
+    
+            <!--Nuez-->
+            <input type="checkbox" name="Nuez" id="Nuez">     
+            <label for="Nuez">Nuez</label><br>
+    
+    
+            <!--Trosos de brownie-->
+            <input type="checkbox" name="Trosos de brownie" id="Trosos de brownie">
+            <label for="Trosos de brownie">Trosos de brownie</label><br><br><br>
+
+
+        <!--Pastel de 3 leches-->
+        <input type="checkbox" name="Pasteles" id="Pastel de 3 leches"> 
+        <label for="Pastel de 3 leches">Pastel de 3 leches</label>
+        
+        <!--Cantidad de pasteles-->
+        <label for="Cuantos">¿Cuantos desea ordenar?</label>
+        <input type="number" id="Cuantos" name="Cuantos" maxlength="1"><br>
+
+            <h4>Complementos (Con costo extra)</h4>
+            <!--Almendras-->
+            <input type="checkbox" name="Almendras" id="Almendras">
+            <label for="Almendras">Almendras</label><br>
+
+
+            <!--Nuez-->
+            <input type="checkbox" name="Nuez" id="Nuez">     
+            <label for="Nuez">Nuez</label><br>
+
+
+            <!--Trosos de brownie-->
+            <input type="checkbox" name="Trosos de brownie" id="Trosos de brownie">
+            <label for="Trosos de brownie">Trosos de brownie</label><br><br><br>
+
+
+        <!--Pastel con pay de queso-->
+        <input type="checkbox" name="Pasteles" id="Pastel con pay de queso"> 
+        <label for="Pastel con pay de queso">Pastel con pay de queso</label>
+        
+        <!--Cantidad de pasteles-->
+        <label for="Cuantos">¿Cuantos desea ordenar?</label>
+        <input type="number" id="Cuantos" name="Cuantos" maxlength="1"><br>
+
+        <h4>Complementos (Con costo extra)</h4>
+        <!--Almendras-->
+        <input type="checkbox" name="Almendras" id="Almendras">
+        <label for="Almendras">Almendras</label><br>
+
+
+        <!--Nuez-->
+        <input type="checkbox" name="Nuez" id="Nuez">     
+        <label for="Nuez">Nuez</label><br>
+
+
+        <!--Trosos de brownie-->
+        <input type="checkbox" name="Trosos de brownie" id="Trosos de brownie">
+        <label for="Trosos de brownie">Trosos de brownie</label><br><br><br>
+
+
+
+        <!--Pay de manzana-->
+        <input type="checkbox" name="Pays" id="Pay de manzana"> 
+        <label for="Pay de manzana">Pay de manzana</label>
+
+        <!--Cantidad de pasteles-->
+        <label for="Cuantos">¿Cuantos desea ordenar?</label>
+        <input type="number" id="Cuantos" name="Cuantos" maxlength="1"><br>
+        
+        <!--Pay de limon-->
+        <input type="checkbox" name="Pays" id="Pay de limon"> 
+        <label for="Pay de limon">Pay de limon</label>
+        
+        <!--Cantidad de pasteles-->
+        <label for="Cuantos">¿Cuantos desea ordenar?</label>
+        <input type="number" id="Cuantos" name="Cuantos" maxlength="1"><br><br>
+
+
+        <input type="reset"> <input type="submit">
+    </form>
+</body>
+</html>
